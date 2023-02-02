@@ -1,0 +1,38 @@
+@media screen and (min-width: 992px) {
+  .eventItem {
+    list-style-type: none;
+    width: 48%;
+  }
+
+  .eventbutton {
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    text-align: left;
+
+    background-color: transparent;
+  }
+
+  .eventimg {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .selectedimg {
+    outline: 1px solid #2dd4bf;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .eventname {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .eventlocation {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+}
